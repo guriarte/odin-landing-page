@@ -121,3 +121,22 @@ figcaption {
   border-color: #3882f6;
   border-radius: 8px;
 }
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  padding: 150px 300px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+}
+
+.author {
+  align-self: flex-end;
+  font-weight: 900;
+}

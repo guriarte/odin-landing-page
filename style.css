@@ -18,6 +18,16 @@ a {
   color: inherit;
 }
 
+figure {
+  display: table;
+}
+
+figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  text-align: center;
+}
+
 .header {
   background-color: #1f2937;
   display: flex;
@@ -85,4 +95,29 @@ a {
   max-height: 100%;
   height: auto;
   flex: 1;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 70px;
+}
+
+.title-info-container {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+}
+
+.card img {
+  border: 3px solid;
+  border-color: #3882f6;
+  border-radius: 8px;
 }

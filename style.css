@@ -81,7 +81,7 @@ figcaption {
   font-size: 18px;
 }
 
-.sign-up-button {
+.hero .sign-up-button {
   background-color: #3882f6;
   padding: 8px 35px;
   color: #f9faf8;
@@ -126,7 +126,7 @@ figcaption {
   display: flex;
   flex-direction: column;
   background-color: #e5e7eb;
-  padding: 150px 300px;
+  padding: 70px 300px;
 }
 
 .quote {
@@ -138,5 +138,45 @@ figcaption {
 
 .author {
   align-self: flex-end;
+  font-weight: 900;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+
+.signup-modal {
+  display: flex;
+  background-color: #3882f6;
+  height: 45%;
+  width: 70%;
+  border-radius: 8px;
+  justify-content: space-around;
+  align-items: center;
+  color: #e5e7eb;
+}
+
+.signup-modal .text-container {
+  flex: 0.5;
+}
+
+.signup-modal .main-text {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.signup-modal .subtext {
+  font-size: 12px;
+}
+
+.signup-modal .sign-up-button {
+  padding: 4px 25px;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #e5e7eb;
+  border: #e5e7eb 1px solid;
   font-weight: 900;
 }
